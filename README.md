@@ -1,2 +1,2 @@
 # opencv-capture
-press keyboard button to capture frame and save file into folder.
+press keyboard button to capture frame and save file with timestamp name into folder.
