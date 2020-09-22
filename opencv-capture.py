@@ -3,6 +3,9 @@ import cv2, time
 
 # Read video from source
 cap = cv2.VideoCapture(0)
+# Set video ratio 16:9
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 720)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 405)
 
 while(True):
     # Capture frame by frame
