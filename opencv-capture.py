@@ -12,7 +12,7 @@ while(True):
     ret, frame = cap.read()
 
     # Wait for keyboard press
-    k = cv2.waitKey(1) & 0xFF
+    k = cv2.waitKey(1)
     # Press q to exit
     if k == ord('q'):
         break
