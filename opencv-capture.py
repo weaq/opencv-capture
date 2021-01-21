@@ -11,6 +11,10 @@ while(True):
     # Capture frame by frame
     ret, frame = cap.read()
 
+    # if end source
+    if not ret:
+        break
+
     # Wait for keyboard press
     k = cv2.waitKey(1)
     # Press q to exit
